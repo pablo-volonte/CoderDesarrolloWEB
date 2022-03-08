@@ -1,0 +1,119 @@
+@font-face {
+      font-family: ubuntu;
+      src: url('../ttf/Ubuntu-Light.ttf');
+}     
+*{
+      margin: 0;
+      padding: 0; 
+}
+
+body{
+      font-family: ubuntu;
+}
+header{
+      background-color: #d9dfeb;
+      box-shadow: 0 6px 25px #d1d8e4;
+      margin-bottom:20px;
+}
+.bannerInicio{
+      display: flex;      
+      height: 250px;
+}
+.DescripcionPersonal{   
+      display: flex;
+      display: inline-block;     
+      color: #1d58d8;
+      margin: 30px 80px 30px 80px;
+      text-align: center ;
+      font-weight: bold;
+      text-shadow: 1px 1px 25px  blue;
+      line-height: 1.8
+}
+
+.datosDeContacto{
+      color: #575050;
+      text-align:center ;
+      margin: 30px;
+}
+
+div nav ul li a{ 
+      display: flex;
+      text-decoration:none;      
+      color: #1d58d8;
+      font-weight:bold;
+      font-size: 80%;    
+}
+div nav ul li{
+      display: flex ;
+      display: inline-block;
+      margin: 0 15px;
+}
+div{
+      display: flex;
+      width: 98%;
+      justify-content: space-between;
+      align-items: center;
+}
+.alineacionNavFooter{
+      display: flex;
+}
+
+.herramientas{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      column-gap: 40px;
+      max-width: 1000px;
+
+
+}
+.herramientas__descripcion{
+      text-align: center;
+
+}
+.herramientas__logo{
+      justify-content: center;
+}
+
+div section nav ul a { 
+      display: flex;
+      margin-top:150px;
+      text-decoration:none;      
+      color: rgb(99, 94, 94)
+}
+
+div nav ul{
+      list-style-type: none;
+      display: inline-flex;
+      
+}
+ol a{ 
+      text-decoration:none;
+      color: rgb(255, 255, 255);
+      padding: 5px 5px 5px 5px;
+}
+ol{
+      display: flex;
+      text-align: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 0 auto;
+      list-style-type: none;
+}
+.Facebook{
+      background-color:rgba(59, 89, 152,0.8) ;
+      border-radius: 5px;
+}
+.Twitter{
+      background-color:rgba(0, 172, 238,0.8) ;
+      border-radius: 5px;
+}
+.Instagram{
+      background-color:rgba(221, 41, 123,0.8) ;
+      border-radius: 5px;
+}
+.WhatsApp{
+      background-color:rgba(0, 187, 45, 0.8) ;
+      border-radius: 5px;
+}
