@@ -1,11 +1,17 @@
+@font-face {
+      font-family: 'ubuntu';
+      src: url('../ttf/Ubuntu/Ubuntu-Light.ttf');
+}
+body{
+      font-family: ubuntu ;       
+}
 .rrss{
       display: flex;
       list-style: none;
       text-decoration: none;
       flex-direction: row;
       justify-content: right;
-      
-      }
+ }
 
 .Facebook{
       background-color:rgba(59, 89, 152,0.8) ;
@@ -15,7 +21,6 @@
       text-decoration: none;
       margin: 10px;
       box-shadow: 5px 5px 8px grey;
-
 }
 .Twitter{
       background-color:rgba(0, 172, 238,0.8) ;
@@ -51,7 +56,7 @@
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .espacio{
-      margin-top: 330px;
+      margin-top: 100px;
 }
 .lorem{
       text-align: center;
@@ -59,5 +64,11 @@
 
 }
 .espacioBanner{
-      margin-bottom: 100px;
+      margin-bottom: 80px;
+}
+.nombreCliente{
+      font-family: 'ubuntu';
+      src: url('../ttf/Ubuntu/Ubuntu-Regular.ttf');
+      color: black;
+      font-weight:700;
 }
