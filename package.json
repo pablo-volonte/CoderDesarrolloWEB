@@ -1,0 +1,22 @@
+{
+  "name": "primera-entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablo-volonte/pablo-volonte.git"
+  },
+  "keywords": [
+    "1234"
+  ],
+  "author": "Pablo Volonté",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablo-volonte/pablo-volonte/issues"
+  },
+  "homepage": "https://github.com/pablo-volonte/pablo-volonte#readme"
+}
