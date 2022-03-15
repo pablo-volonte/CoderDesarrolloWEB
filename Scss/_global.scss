@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ubuntu';
+    src: url('../ttf/Ubuntu/Ubuntu-Light.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: ubuntu ;
+}
