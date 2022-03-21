@@ -1,0 +1,85 @@
+footer{
+    ol{
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        flex-direction: row;
+        justify-content: center;
+        margin: 25px;
+    }
+}
+
+.Facebook{
+    background-color: $facebookColor;
+    border-radius: $BotonRrss;
+    color: $textoRrss;
+    padding: 8px;
+    text-decoration: none;
+    margin: 5px;
+    box-shadow: 5px 5px 8px grey;
+    &:hover{
+        font-style: italic;
+        color: #fff;
+    }
+}
+.Twitter{
+    background-color: $twitterColor;
+    border-radius: $BotonRrss;
+    color: $textoRrss;
+    padding: 8px;
+    text-decoration: none;
+    margin: 5px;
+    box-shadow: 5px 5px 8px grey;
+    &:hover{
+        font-style: italic;
+        color: #fff;
+    }
+}
+.Instagram{
+    background-color:$instagramColor ;
+    border-radius:$BotonRrss;
+    color: $textoRrss;
+    padding: 8px;
+    text-decoration: none;
+    margin: 5px;
+    box-shadow: 5px 5px 8px grey;
+    &:hover{
+        font-style: italic;
+        color: #fff;
+    }
+}
+.WhatsApp{
+    background-color:$WhatsappColor;
+    border-radius: $BotonRrss;
+    color: $textoRrss;
+    padding: 8px;
+    text-decoration: none;
+    margin:5px;
+    box-shadow: 5px 5px 8px grey;
+    &:hover{
+        font-style: italic;
+        color: #fff;
+    }
+}
+.datosDeContacto{
+    color: #575050;
+    text-align:center ;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media(max-width: $sm){
+    footer{
+        div{
+            section{
+                nav{
+                    div{
+                        button{
+                        display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
