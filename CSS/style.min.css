@@ -1,0 +1,134 @@
+@font-face {
+	font-family: "ubuntu";
+	src: url("../ttf/Ubuntu/Ubuntu-Light.ttf");
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: ubuntu;
+	max-width: 1200px;
+}
+header {
+	background-color: #eee;
+}
+header nav div ul li {
+	margin-left: 10px;
+}
+header nav div ul li a:hover {
+	text-decoration: none;
+	margin: 10px 0;
+	-webkit-transition: 0.4s all ease;
+	transition: 0.4s all ease;
+}
+@media (min-width: 992px) {
+	header nav div ul li a:hover {
+		text-decoration: underline;
+		margin: 0 0;
+	}
+}
+.portafolio__main--nombreCliente {
+	color: black;
+	font-weight: 500;
+	font-size: 30px;
+	text-decoration: none;
+}
+.portafolio__main--webCliente {
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+.portafolio__main--webCliente:hover {
+	color: grey;
+}
+.contacto__main--botton {
+	outline: blue;
+}
+footer ol {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	list-style: none;
+	text-decoration: none;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin: 0 50px;
+}
+.Facebook {
+	background-color: rgba(59, 89, 152, 0.8);
+	border-radius: 20px;
+	color: #fff;
+	padding: 8px;
+	text-decoration: none;
+	margin: 5px;
+	-webkit-box-shadow: 5px 5px 8px grey;
+	box-shadow: 5px 5px 8px grey;
+}
+.Facebook:hover {
+	font-style: italic;
+	color: #fff;
+}
+.Twitter {
+	background-color: rgba(0, 172, 238, 0.8);
+	border-radius: 20px;
+	color: #fff;
+	padding: 8px;
+	text-decoration: none;
+	margin: 5px;
+	-webkit-box-shadow: 5px 5px 8px grey;
+	box-shadow: 5px 5px 8px grey;
+}
+.Twitter:hover {
+	font-style: italic;
+	color: #fff;
+}
+.Instagram {
+	background-color: rgba(221, 41, 123, 0.8);
+	border-radius: 20px;
+	color: #fff;
+	padding: 8px;
+	text-decoration: none;
+	margin: 5px;
+	-webkit-box-shadow: 5px 5px 8px grey;
+	box-shadow: 5px 5px 8px grey;
+}
+.Instagram:hover {
+	font-style: italic;
+	color: #fff;
+}
+.WhatsApp {
+	background-color: rgba(0, 187, 45, 0.8);
+	border-radius: 20px;
+	color: #fff;
+	padding: 8px;
+	text-decoration: none;
+	margin: 5px;
+	-webkit-box-shadow: 5px 5px 8px grey;
+	box-shadow: 5px 5px 8px grey;
+}
+.WhatsApp:hover {
+	font-style: italic;
+	color: #fff;
+}
+.datosDeContacto {
+	color: #575050;
+	text-align: center;
+	margin: 5px;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.espacio {
+	margin-top: 100px;
+}
+.lorem {
+	text-align: center;
+	margin: 65px;
+}
+.espacioBanner {
+	margin-bottom: 80px;
+}

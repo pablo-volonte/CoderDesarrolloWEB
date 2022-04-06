@@ -1,22 +1,22 @@
 {
-  "name": "primera-entrega",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "sass style.scss css/style.css -w --no-source-map -s compressed"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pablo-volonte/pablo-volonte.git"
-  },
-  "keywords": [
-    "1234"
-  ],
-  "author": "Pablo Volonté",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pablo-volonte/pablo-volonte/issues"
-  },
-  "homepage": "https://github.com/pablo-volonte/pablo-volonte#readme",
-  "description": ""
+	"name": "primera-entrega",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "sass style.scss css/style.css -w --no-source-map -s compressed"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pablo-volonte/pablo-volonte.git"
+	},
+	"keywords": [
+		"1234"
+	],
+	"author": "Pablo Volonté",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/pablo-volonte/pablo-volonte/issues"
+	},
+	"homepage": "https://github.com/pablo-volonte/pablo-volonte#readme",
+	"description": ""
 }

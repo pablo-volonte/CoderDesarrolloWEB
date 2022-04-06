@@ -1,17 +1,94 @@
-.portafolio__main--nombreCliente{
-    color: black;
-    font-weight: 500;
-    font-size: 30px;
-    text-decoration: none;
-}
-.portafolio__main--webCliente{
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-    &:hover{
-        color: grey;
-    }
-}
-.contacto__main--botton{
-    outline: blue;
+main {
+	.index__presentation {
+		display: flex;
+		align-items: center;
+	}
+	.index__presentation--info {
+		width: auto;
+		text-align: center;
+		margin: 30px 50px;
+		color: $textGray;
+		font-weight: bold;
+		line-height: 40px;
+	}
+	.index__photo {
+		border-radius: 250px;
+		width: 150px;
+		margin: 20px 20px 10px;
+		position: relative;
+	}
+
+	.herramientas__img {
+		margin: 30px 0;
+	}
+	.portafolio {
+		margin: $Distance;
+		text-align: center;
+		font-size: $fontsize;
+	}
+	.portafolio__items {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 15px;
+		margin: 50px auto;
+		border-radius: 5px 0 5px 0;
+	}
+	.portafolio__items--link {
+		text-decoration: none;
+		color: $textGray;
+		font-size: 20px;
+		&:hover {
+			color: lightslategray;
+		}
+	}
+	.portafolio__items--img {
+		border-radius: 0 50px 0 30px;
+		width: 500px;
+		height: 300px;
+		margin-top: 30px;
+		box-shadow: 10px 10px 20px $textGray;
+		margin-bottom: 15px;
+	}
+
+	@media (max-width: $lg) {
+		.presentation__info {
+			width: auto;
+			text-align: center;
+			margin: 5px 5px;
+			color: $textGray;
+			font-weight: normal;
+			line-height: 40px;
+		}
+		.portafolio__items {
+			grid-template-columns: repeat(1, 1fr);
+		}
+	}
+
+	@media (max-width: $sm) {
+		.index__photo {
+			display: none;
+		}
+		.carousel-item {
+			height: 100px;
+		}
+	}
+	@media (max-width: $md) and (orientation: portrait) {
+		.portafolio__items--img {
+			width: 500px;
+			height: 350px;
+		}
+		.portafolio__items--link {
+			font-size: 35px;
+		}
+	}
+
+	@media (max-width: $sm) and (orientation: portrait) {
+		.portafolio__items--img {
+			width: 240px;
+			height: 180px;
+		}
+		.portafolio__items--link {
+			font-size: 20px;
+		}
+	}
 }

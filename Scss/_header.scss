@@ -1,36 +1,22 @@
 header {
-  nav {
-    div {
-      ul {
-        li {
-          margin-left: 10px;
-          a {
-            &:hover {
-              text-decoration: none;
-              margin: 10px 0;
-              transition: 0.4s all ease;
-            }
-          }
-        }
-      }
-    }
-  }
+	background-color: $Backgroundeee;
+	nav div ul li {
+		margin-left: 10px;
+		a {
+			&:hover {
+				text-decoration: none;
+				margin: 10px 0;
+				transition: 0.4s all ease;
+			}
+		}
+	}
 }
+
 @media (min-width: $lg) {
-  header {
-    nav {
-      div {
-        ul {
-          li {
-            a {
-              &:hover {
-                text-decoration: underline;
-                margin: 0 0;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+	header nav div ul li a {
+		&:hover {
+			text-decoration: underline;
+			margin: 0 0;
+		}
+	}
 }
